@@ -29,6 +29,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/Baegilpong/RetroGram/blob/master/RetroGram.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+<img src='https://github.com/Baegilpong/RetroGram/blob/master/RetroGramSO.gif' title='Video Walkthrough 2' width='' alt='Video Walkthrough 2' />
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 <img src='https://github.com/Baegilpong/RetroGram/blob/master/NewUser.png' title='User Sign Up' width='' alt='User Sign Up' />
 
