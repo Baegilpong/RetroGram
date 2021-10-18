@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RetroGram</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Log in</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">4rtWtmOglgzd0cddDV2dRgpuPziO2MHxdHLcBa3Z</string>
+    <string name="back4app_client_key">qsQbBNS0QwGAGMeYrspUcne4Gaov4zd4HtP0wG8y</string>
+    <string name="description">Description...</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="submit">Submit</string>
+</resources>
