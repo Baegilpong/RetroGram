@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnSubmit;
     private File photoFile;
     private String photoFileName = "photo.jpeg";
+    private Button btnSignout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +51,16 @@ public class MainActivity extends AppCompatActivity {
         btnCaptureImage = findViewById(R.id.btnCaptureImage);
         ivPostImage = findViewById(R.id.ivPostImage);
         btnSubmit = findViewById(R.id.btnSubmit);
+        btnSignout = findViewById(R.id.btnSignout);
 
+        btnSignout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ParseUser.logOut();
+                ParseUser currentUser = ParseUser.getCurrentUser(); // this will now be null
+                goLoginActivity();
+            }
+        });
         btnCaptureImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -76,6 +86,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void goLoginActivity() {
+            Intent i = new Intent(this, LoginActivity.class);
+            startActivity(i);
+            finish();
+        }
 
     private void launchCamera() {
         // create Intent to take a picture and return control to the calling application
