@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RetroGram</string>
+    <string name="app_name"> </string>
     <string name="password">Password</string>
     <string name="username">Username</string>
     <string name="login">Log in</string>
@@ -11,4 +11,9 @@
     <string name="submit">Submit</string>
     <string name="sign_up">Sign up</string>
     <string name="sign_out">Sign out</string>
+    <string name="home">Home</string>
+    <string name="compose">Compose</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

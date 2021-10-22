@@ -11,7 +11,7 @@
     <ImageView
         android:id="@+id/instagram"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="100dp"
         android:layout_weight="1"
         xmls:srcCompat="@drawable/nav_logo_whiteout" />
 
@@ -35,17 +35,17 @@
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="45dp"
         android:layout_weight="1"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="#2196F3"
         android:text="@string/login" />
 
     <Button
         android:id="@+id/btnSignup"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="45dp"
         android:layout_weight="1"
-        android:backgroundTint="@color/green"
+        android:backgroundTint="#4CAF50"
         android:text="@string/sign_up" />
 
 </LinearLayout>
