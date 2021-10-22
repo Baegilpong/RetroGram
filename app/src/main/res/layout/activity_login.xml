@@ -21,7 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="@string/username" />
+        android:hint="@string/username"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -30,12 +31,13 @@
         android:layout_weight="1"
         android:ems="10"
         android:hint="@string/password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_weight="1"
         android:backgroundTint="#2196F3"
         android:text="@string/login" />
@@ -43,7 +45,7 @@
     <Button
         android:id="@+id/btnSignup"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_weight="1"
         android:backgroundTint="#4CAF50"
         android:text="@string/sign_up" />
