@@ -3,10 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/drawable/statehome.xml" value="0.2140625" />
+        <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/drawable/statelist.xml" value="0.303125" />
+        <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/drawable/statepost.xml" value="0.2140625" />
+        <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/drawable/stateuser.xml" value="0.2140625" />
         <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/layout/fragment_compose.xml" value="0.2869791666666667" />
         <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/layout/fragment_posts.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/layout/fragment_profile.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/layout/header.xml" value="0.2015625" />
         <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/layout/item_posts.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/baoph/StudioProjects/RetroGram/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.36666666666666664" />
